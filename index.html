@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf 8">
+        <title>This is my first page</title>
+        <link rel="stylesheet" href="mystylesheet.css"/>
+    </head>
+
+    <body>
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+
+        <h1>I am KuiPurr!</h1>
+        <p>You're right, I am a cat girl</p>
+        <p class="greentext">This is my 2nd paragraph which is green and using a different font</p>
+
+        <button>Submit</button>
+        <input id="submit" name="submit" type="submit" value="submit">
+        <input id="button" name="button" type="button" value="button">
+
+        <h2>Registration form</h2>
+        <form action="formsuccess.html">
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username" value="" maxlength="10" required><br><br>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" value="" required><br><br>
+
+            <label for="confirmPassword">Confirm Pasword</label>
+            <input aria-describedby="passwordrules" id="confirmPassword" type="password" name="confirmPassword" value=""  required><br>
+            <div hidden role="tooltip" id="passwordrules">
+            <p>
+                Password Rules
+            </p>
+            <ul>
+                <li>Minimum of 8 characters</li>
+                <li>Include atleast 1 lowercase, 1 uppercase, 1 number and a special character</li>
+                <li>Unique to this website</li>
+            </ul>
+            </div>
+
+            <input id="submit" name="submit" type="submit" value="Register">
+        </form>
+
+        <h2>About Me</h2>
+        <p>My hobbies</p>
+        <ul>
+            <li>Gaming</li>
+            <li>Reading</li>
+            <li>Adventure</li>
+        </ul>
+
+        <h3>Top 5 facts about cats</h3>
+        <ol>
+            <li>They are self sustainant</li>
+            <li>They are affectionate</li>
+            <li>They are cute with ♾️ aura</li>
+            <li>Boss kings and queens</li>
+            <li>Caps is the best of them all</li>
+        </ol>
+      <table>
+        <caption>Table of cats</caption>
+            <tr>
+                <th>Species</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <th>American shorthair</th>
+                <th>Captain Alexander Bay Paws On Control</th>
+                <th>5</th>
+            </tr>
+      </table>
+    </body>
+</html>

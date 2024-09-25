@@ -1,0 +1,25 @@
+.greentext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+body {
+    background-color: lightblue;
+}
+.container {
+    display: flex; 
+    justify-content: center; /* Align items horizontally (center, flex-start, flex-end, space-between, space-around) */
+    align-items: center; /* Align items vertically (center, flex-start, flex-end, baseline, stretch) */
+    height: 100vh; /* Full viewport height */
+    background-color: lightgray;
+}
+
+.item {
+    padding: 20px;
+    background-color: lightcoral;
+    margin: 10px;
+    color: white;
+}
+
+/*.grid-container{
+    
+}
